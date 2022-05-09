@@ -107,6 +107,7 @@ html {
 .paleta-card-item-preco,
 .paleta-list-item-preco {
   color: orangered;
+  font-weight: 700;
 }
 
 .paleta-list-item-foto {
@@ -234,7 +235,6 @@ html {
   font-size: 1.5em;
 }
 
-
 .logo-icon {
   position: absolute;
   left: -20px;
@@ -278,7 +278,6 @@ html {
 
 .close-modal {
   text-decoration: none;
-  color: #000000;
   font-size: 1.5rem;
   transform: scale(0.7);
   transition: all 0.3s ease-in-out;
@@ -317,7 +316,6 @@ textarea {
   font-size: 1rem;
   font-weight: 700;
   background-color: transparent;
-  color: black;
   border: solid 1px chartreuse;
   border-radius: 0.3rem;
   cursor: pointer;
@@ -326,95 +324,8 @@ textarea {
 
 .modal-body div button:hover {
   background-color: #00b309;
-  color: black;
 }
 
-/*.button-modal-create {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0 auto 25px auto;
-  max-width: 1110px;
-}*/
-
-.Acoes {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 1rem;
-}
-
-.btn {
-  border: none;
-  border-radius: 0.3rem;
-  padding: 0.5rem;
-  max-width: 280px;
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
-  width: 48%;
-
-  transition: all 0.3s ease-in-out;
-}
-
-.Acoes__editar {
-  color: black;
-  border: solid 1px chartreuse;
-  background-color: transparent;
-}
-
-.Acoes__editar:hover {
-  color: #fff;
-  background-color: #00b309;
-}
-
-.Acoes__apagar {
-  color: black;
-  border: solid 1px orangered;
-  background-color: transparent;
-}
-
-.Acoes__apagar:hover {
-  color: #fff;
-  background-color: orangered;
-}
-
-.modal-body-delete {
-  display: flex;
-  flex-wrap: wrap;
-}
-.modal-body-delete p {
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.btns_delete {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.btn_delete {
-  background-color: transparent;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  border-radius: 0.5rem;
-  width: 30%;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn_delete_no {
-  color: black;
-  border: solid 1px orangered;
-}
-
-.btn_delete_no:hover {
-  background-color: orangered;
-  color: #fff;
-}
-  
 .options {
   display: flex;
   justify-content: space-between;
@@ -430,17 +341,17 @@ textarea {
 }
 
 .success {
-  background-color: #a4ffa4;
-  color: #006905;
-  border: solid 1px #006905;
+  background-color: antiquewhite;
+  color: green;
+  border: solid 1px darkgreen;
   padding: 0.8rem;
   border-radius: 0.3rem;
 }
 
 .danger {
-  background-color: #ffa4a4;
-  color: #690000;
-  border: solid 1px #690000;
+  background-color: red;
+  color: black;
+  border: solid 1px darkred;
   padding: 0.8rem;
   border-radius: 0.3rem;
 }
@@ -466,25 +377,23 @@ textarea {
 }
 
 .actions-edit {
-  color: #003cff;
-  border: solid 1px #003cff;
+  color: black;
   background-color: transparent;
 }
 
 .actions-edit:hover {
-  color: #fff;
-  background-color: #003cff;
+  color: black;
+  background-color: chartreuse;
 }
 
 .actions-delete {
-  color: #ff0000;
-  border: solid 1px #ff0000;
+  color: black;
   background-color: transparent;
 }
 
 .actions-delete:hover {
-  color: #fff;
-  background-color: #ff0000;
+  color: black;
+  background-color: orangered;
 }
 
 .modal-body-delete {
@@ -515,23 +424,23 @@ textarea {
 }
 
 .btn-delete-no {
-  color: #ff0000;
-  border: solid 1px #ff0000;
+  color: black;
+  border: solid 1px chartreuse;
 }
 
 .btn-delete-no:hover {
-  background-color: #ff0000;
-  color: #fff;
+  background-color: chartreuse;
+  color: black;
 }
 
 .btn-delete-yes {
-  color: #00b309;
-  border: solid 1px #00b309;
+  color: black;
+  border: solid 1px orangered;
 }
 
 .btn-delete-yes:hover {
-  background-color: #00b309;
-  color: #fff;
+  background-color: orangered;
+  color: black;
 }
 
 .list-all {
